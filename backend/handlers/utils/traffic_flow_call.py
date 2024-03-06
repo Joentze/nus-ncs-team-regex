@@ -3,6 +3,7 @@ import datetime
 import time
 import json
 import aiohttp
+import csv
 from collections import defaultdict
 
 
@@ -31,9 +32,13 @@ async def main():
     databatch = 0
 
     # creating a dictionary of roads that we need
-    with open('roads.txt', 'r') as f:
-        for line in f:
-            roads[line.strip()] = 1
+    with open('stadium-roads-table.csv', 'r') as f:
+        relevant = csv.reader(f)
+        next(relevant)
+        for rel_roadname, rel_lineid in relevant:
+            if rel_roadname not in roads:
+                roads[rel_roadname] = []
+            roads[rel_roadname].append(rel_lineid)
 
     while True:
         task = asyncio.create_task(fetch_data(host, databatch, headers))
@@ -50,8 +55,8 @@ async def main():
             roadname = entry['RoadName']
             # Will only add to dictionary if in "roads" - for Stadium Area roads only
             # To be updated: the LinkID as well to get more granular data
-            if roadname in roads:
-                linkid = entry["LinkID"]
+            linkid = entry["LinkID"]
+            if roadname in roads and linkid in roads[roadname]:
                 everything[roadname][linkid] = {"RoadCategory": entry["RoadCategory"],
                                                 "SpeedBand": entry["SpeedBand"],
                                                 "StartLon": entry["StartLon"],
@@ -65,7 +70,7 @@ async def main():
 
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
-    # link the data as needed
+    # rename the output file as needed
     with open(f".\data\{date}_road_data.json", "w") as outfile:
         json.dump(everything, outfile, indent=1)
 

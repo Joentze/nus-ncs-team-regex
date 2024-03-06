@@ -1,8 +1,9 @@
-##GEOCODE helper functions
+## GEOCODE helper functions
 
 refer to [geopy docs](https://geopy.readthedocs.io/en/stable/#nominatim)
 
 Instantiate geocode object - if error consider changing user-agent
+
 ```
     from geocode import geocode
 
@@ -10,6 +11,7 @@ Instantiate geocode object - if error consider changing user-agent
 ```
 
 Run with asyncio
+
 ```
     import asyncio
 
@@ -26,10 +28,19 @@ Run with asyncio
 ```
 
 Looping
+
 ```
-    coords_list = ["1.356520, 103.829805","1.354520, 103.829805","1.356530, 103.829805","1.336520, 103.429805"]    
+    coords_list = ["1.356520, 103.829805","1.354520, 103.829805","1.356530, 103.829805","1.336520, 103.429805"]
     for coords in coords_list:
         address = asyncio.run(geocode_object.reverse(coords))
         print(address)
 ```
 
+## traffic_flow_call.py
+
+Not a full-fledged helper function yet. Primary purpose as of 07/03/24 is to use to pull data to create a "historical" dataset.
+
+Requires 2 additional files:
+
+1. api_key.txt: For storage of API key (in local machine)
+2. stadium-roads-table.csv: CSV file containing all road segments relevant to Sports Hub area
