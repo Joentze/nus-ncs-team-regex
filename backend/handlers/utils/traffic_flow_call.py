@@ -4,6 +4,7 @@ import time
 import json
 import aiohttp
 import csv
+import os
 from collections import defaultdict
 
 
@@ -20,8 +21,7 @@ async def fetch_data(host, databatch, headers):
 
 async def main():
     # use the API key as needed
-    with open('api_key.txt', 'r') as f1:
-        api_key = f1.read()
+    api_key = os.environ['LTA_API_KEY']
 
     host = "http://datamall2.mytransport.sg/ltaodataservice/v3/TrafficSpeedBands?$skip="
     headers = {"AccountKey": api_key,
@@ -69,8 +69,6 @@ async def main():
         time.sleep(0.005)
 
     date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-
-    # rename the output file as needed
     with open(f".\data\{date}_road_data.json", "w") as outfile:
         json.dump(everything, outfile, indent=1)
 
