@@ -49,6 +49,10 @@ def haversine(lat1, lon1, lat2, lon2):
     return r * c
 
 def get_top_5_closest_carparks(location):
+    """
+    Takes in a single string with latitude and longitude separated
+    with a space and outputs the closest 5 carparks as a dataframe
+    """
     # Extract latitude and longitude from the location
     lat, lon = map(float, location.split())
     
