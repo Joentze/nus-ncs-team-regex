@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 PLATFORM_DENSITY_LINK = "http://datamall2.mytransport.sg/ltaodataservice/PCDRealTime"
-DATAMALL_API_KEY = "yeCfQUR9TIOh/b+JTgbklg=="
+DATAMALL_API_KEY = os.environ('ENV_DATAMALL_KEY')
 
 
 class PublicTransportFinder:
