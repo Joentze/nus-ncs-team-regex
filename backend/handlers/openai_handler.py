@@ -9,6 +9,10 @@ from schemas.Prompt import Prompt
 client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 
+function_map = {
+}
+
+
 async def get_completion(messages: List[Prompt], params: object = {}) -> Prompt:
     """gets completion from open ai model"""
     messages = format_role_content(messages)
@@ -24,7 +28,8 @@ async def get_completion(messages: List[Prompt], params: object = {}) -> Prompt:
     if tool_calls:
         function_name = tool_calls[0].function.name
         function_args = json.loads(tool_calls[0].function.arguments)
-        return Prompt(**{"role": "function", "content": json.dumps(function_args), "name": function_name})
+        function_response = function_map[function_name](**function_args)
+        return Prompt(**{"role": "function", "content": function_response, "name": function_name})
     return Prompt(**{"role": role, "content": content})
 
 
