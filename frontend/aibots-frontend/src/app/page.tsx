@@ -36,7 +36,7 @@ export default function Home() {
             <AppShell.Header>
               <Group h="100%" px="md">
                 <Text fw={700} size="lg">
-                  Govtech ChatGPT 🇸🇬
+                  TrafficGPT 🚦
                 </Text>
               </Group>
             </AppShell.Header>
