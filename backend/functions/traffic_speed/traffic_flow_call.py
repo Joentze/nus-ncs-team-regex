@@ -6,7 +6,7 @@ import aiohttp
 import csv
 import os
 from collections import defaultdict
-
+from ..utils.api import lta_api
 
 async def fetch_data(host, databatch, headers):
     async with aiohttp.ClientSession() as session:

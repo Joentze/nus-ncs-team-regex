@@ -1,0 +1,10 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml" xml:base="http://datamall2.mytransport.sg/ltaodataservice">
+    <link rel="self" href="http://datamall2.mytransport.sg/ltaodataservice/FarecardBatch" />
+    <entry>
+        <content type="application/xml">
+            <m:properties>
+                <d:Link>https://ltafarecard.s3.ap-southeast-1.amazonaws.com/202001/transport_node_train_202001.zip?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgBnaEkHT88CKmRwAygZPOpOwQ3ly50dik03tgkE%2BLXi0CIDS4iYKOUgfxnbh9IGjbvxEtbZKmDDdCVYi6EiTXzuDfKqMDCFMQARoMMzQwNjQ1MzgxMzA0Igy4tXFp%2BR64dkWvUKUqgAM5mTfZeArUVqBccdKdoL0xm3hrN5gl06oHOVwBQSlogAmZ1n0uyUSf7bvZ5y1qNw2WgXDbL9BUk%2FF8Hl4K2uAIzTVd59TRZHYm1gfMgSH%2F3Zq7xEWpfseGIuB1jTpVqmG16xVeb70SzPXFBWMWd5UuLYB311RHsWvHX%2FqIvXpbXyl%2B3jyr9X2174MAELqdhIWlX%2Bbjkw2sa9A7904n4mlH0tZwG2B3DIgWsuXG80BowMWis0l8gP1AA%2F0CreXOiEpQYTTKPnqf7TgA6wDEKXlWFA4c39SRzM00oQASM2ahPkkjP63Mky2MY4BTaopwLGwt9EhLhQrRCCLQQ0BDDLt9V3soChAn6BvxiG%2FabENpIee2YsIKCj5SZuY4Y%2FGBo%2BADHJCNcXEHsh9nKRFq8rBMsMu7OZt7pFbY%2BraoZvVu4STpdr1dXJsLzv91VThyMqlWFEgpGS0yT6Y%2Bx%2B7q59CUxlY5CTTS0Xe%2FuSqhNNZE8CvslCKm1SWtI2Fev%2Ftr5D0wgOiS8gU67AGgCVe04OArXxxUza10iXQhvG80CzobvVl0afyRNoBWTMOBY4B%2BztPyWUDQbc%2B7q9q9Bl9JfRzGqdKFo%2FKmU8CA6LMOkGedOYHlXN8FZOjdZAZcZbk8sx5PZ2Ct2y4GUub51dTH1AShH2DfilXJ2WwGrPuTD7JO%2Bd5ZMZckqesZ57iX18zlCX1IHJud6EBjB9hBuipGID8dCdYyyMh0n7UqBEHcsOZ8z8ampSSBtjPadBrxQDBWIHwJdp269p0tKXaqUeVcyXvZiTIy%2FGiHtMpwoHeLFO2KbKEWEvKvK8mc%2BdZbzO5UDfg%2FhvG2Aw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200213T030243Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAU6UAMAS4PFZAH2VO%2F20200213%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Signature=d64514ddd2a543002a3b7c45801af238093c15b0346dc6487b0c6f9fcf46a071</d:Link>
+            </m:properties>
+        </content>
+    </entry>
+</feed>

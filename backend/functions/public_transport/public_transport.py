@@ -3,9 +3,10 @@ import math
 import requests
 import os
 import pandas as pd
+from ..utils.api import lta_api
 
-PLATFORM_DENSITY_LINK = "http://datamall2.mytransport.sg/ltaodataservice/PCDRealTime"
-DATAMALL_API_KEY = os.environ('ENV_DATAMALL_KEY')
+# PLATFORM_DENSITY_LINK = "http://datamall2.mytransport.sg/ltaodataservice/PCDRealTime"
+# DATAMALL_API_KEY = os.environ('ENV_DATAMALL_KEY')
 
 
 class PublicTransportFinder:
@@ -60,11 +61,13 @@ class PublicTransportFinder:
 
             for stn_no in station_number_arr:
                 train_line = stn_no[:-1] + "L"
-                response = requests.get(
-                    PLATFORM_DENSITY_LINK,
-                    params={"TrainLine": train_line},
-                    headers={"AccountKey": DATAMALL_API_KEY},
-                )
+                params={"TrainLine": train_line}
+                response = lta_api("PCDRealTime", params = params)
+                # response = requests.get(
+                #     PLATFORM_DENSITY_LINK,
+                #     params={"TrainLine": train_line},
+                #     headers={"AccountKey": DATAMALL_API_KEY},
+                # )
                 data = response.json()["value"]
 
                 for stn_dict in data:
@@ -75,18 +78,18 @@ class PublicTransportFinder:
         return stations
 
 
-mrt_station_df = pd.read_csv("../../misc/data/MRT Stations.csv")
-bus_stops_df = pd.read_csv("../../misc/data/bus_stops.csv")
+# mrt_station_df = pd.read_csv("../../misc/data/MRT Stations.csv")
+# bus_stops_df = pd.read_csv("../../misc/data/bus_stops.csv")
 
-public_transport_object = PublicTransportFinder(mrt_station_df, bus_stops_df)
+# public_transport_object = PublicTransportFinder(mrt_station_df, bus_stops_df)
 
-nearby_stations = public_transport_object.find_nearby_mrts(
-    1.3129816930513392, 103.88709040919767
-)
+# nearby_stations = public_transport_object.find_nearby_mrts(
+#     1.3129816930513392, 103.88709040919767
+# )
 
-low_density_stations_nearby = public_transport_object.get_low_density_nearby_stations(
-    1.3129816930513392, 103.88709040919767
-)
+# low_density_stations_nearby = public_transport_object.get_low_density_nearby_stations(
+#     1.3129816930513392, 103.88709040919767
+# )
 
-print(nearby_stations)
-print(low_density_stations_nearby)
+# print(nearby_stations)
+# print(low_density_stations_nearby)

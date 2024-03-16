@@ -4,8 +4,7 @@ from typing import List
 from enum import Enum
 from requests import get
 from pprint import pprint
-
-API_KEY = os.environ["API_KEY"]
+from ..utils.api import lta_api
 
 class Stations(Enum):
     """enums for stations"""
@@ -23,9 +22,9 @@ class Stations(Enum):
 
 def get_crowd_density(station: Stations) -> List[object]:
     """returns list of crowd densities"""
-    url_route = f"http://datamall2.mytransport.sg/ltaodataservice/PCDRealTime?TrainLine={station}"
-    response = get(url_route, headers={
-                   "AccountKey": API_KEY, "Accept": "application/json"}, timeout=5000)
+
+    response = lta_api(f"PCDRealTime?TrainLine={station}")  
+
     return response.json()
 
 
