@@ -1,9 +1,9 @@
 import os
-from dotenv import load_dotenv
 import requests
 import json
-from geocode import geocode
 import asyncio
+from ..utils.api import lta_api
+from ..utils.geocode import geocode
 
 class Alert:
     def __init__(self, id, latitude, longitude, message, address):
@@ -17,40 +17,17 @@ class Alert:
         pass
         #function to retrieve date and time 
 
-class api:
-    url = "http://datamall2.mytransport.sg/ltaodataservice/"
+class Message:
     incident_domain = "TrafficIncidents"
     warning_domain = "VMS"
 
     def __init__(self):
-        load_dotenv()
         self.key = os.getenv('api_key')
         self.headers  = {
             'Accept': 'application/json',          
             'AccountKey': self.key             
         }
-        self.geolocator = geocode()
-
-    def fetch_api(self, domain):
-        """Fetches datamall API.
-
-        Args:
-            domain (str): Domain path (refer to the Datamall API documentation).
-
-        Returns:
-            dict: The parsed JSON response from the API.
-
-        Raises:
-            requests.exceptions.HTTPError: If the API request fails (e.g., error code 404, 500).
-        """
-        try:
-            response = requests.get(self.url + domain, headers=self.headers)
-            response.raise_for_status() 
-            return json.loads(response.content)
-        
-        except requests.exceptions.RequestException as e:
-            print(f"Error fetching data: {e}")
-            return None 
+        self.geolocator = geocode() 
         
     def get_address(self, lat, long):
         """Reverse geocoding
@@ -91,7 +68,8 @@ class api:
         Returns:
             events (list): List of events (objects)
         """
-        content = self.fetch_api(domain)
+        content = lta_api(domain, None)
+        content = content.json()
         if content["value"]:
             values = content["value"]
             if domain == self.incident_domain:
@@ -103,7 +81,7 @@ class api:
 
 
 if __name__ == "__main__":
-    obj = api()
+    obj = Message()
     events = obj.get_events("TrafficIncidents")
     for e in events:
         print(f"{e.id}, \n {e.address}, \n {e.message}")

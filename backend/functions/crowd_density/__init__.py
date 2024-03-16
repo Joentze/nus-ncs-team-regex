@@ -7,7 +7,6 @@ from pprint import pprint
 
 API_KEY = os.environ["API_KEY"]
 
-
 class Stations(Enum):
     """enums for stations"""
     CIRCLE_LINE = "CCL"
