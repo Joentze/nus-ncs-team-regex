@@ -1,5 +1,0 @@
-geographiclib==2.0
-geopy==2.4.1
-nominatim==0.1
-python-dotenv==1.0.1
-yfinance==0.1.93
