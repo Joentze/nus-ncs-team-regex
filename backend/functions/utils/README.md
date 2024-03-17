@@ -1,4 +1,4 @@
-##GEOCODE helper functions
+## GEOCODE helper functions
 
 refer to [geopy docs](https://geopy.readthedocs.io/en/stable/#nominatim)
 
