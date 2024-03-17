@@ -5,6 +5,11 @@ from typing import List
 from asyncio import run
 from openai import AsyncOpenAI
 from schemas.Prompt import Prompt
+from dotenv import load_dotenv
+
+# dotenv_path = os.path.join(os.path.dirname(__file__), '..', '', '.env') 
+# load_dotenv(dotenv_path)
+# client =  os.getenv('OPENAI_API_KEY')
 
 client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
 

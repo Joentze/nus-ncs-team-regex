@@ -8,21 +8,31 @@ import os
 from collections import defaultdict
 from ..utils.api import lta_api
 
+async def fetch_data(host, databatch, headers):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(host + str(databatch), headers=headers) as response:
+            if response.status == 200:
+                return await response.json()
+            else:
+                print(
+                    f"Error getting data batch {databatch}: {response.status}")
+                return None
 
-async def main(filepath):
+
+async def main():
     # use the API key as needed
-    # api_key = os.environ['LTA_API_KEY']
+    api_key = os.environ['LTA_API_KEY']
 
-    # host = "http://datamall2.mytransport.sg/ltaodataservice/v3/TrafficSpeedBands?$skip="
-    # headers = {"AccountKey": api_key,
-    #            "accept": "application/json"}
+    host = "http://datamall2.mytransport.sg/ltaodataservice/v3/TrafficSpeedBands?$skip="
+    headers = {"AccountKey": api_key,
+               "accept": "application/json"}
     # defaultdict with default value of an empty dict
     everything = defaultdict(dict)
     roads = {}
     databatch = 0
 
     # creating a dictionary of roads that we need
-    with open(filepath, 'r') as f:
+    with open('stadium-roads-table.csv', 'r') as f:
         relevant = csv.reader(f)
         next(relevant)
         for rel_roadname, rel_lineid in relevant:
@@ -31,10 +41,8 @@ async def main(filepath):
             roads[rel_roadname].append(rel_lineid)
 
     while True:
-        task = lta_api("v3/TrafficSpeedBands?$skip=", databatch)
-        api_call = task
-
-        return api_call.json()
+        task = asyncio.create_task(fetch_data(host, databatch, headers))
+        api_call = await task
 
         # Check for final API call
         if len(api_call['value']) < 500:
@@ -60,9 +68,9 @@ async def main(filepath):
         print(f'pulled databatch #{databatch}')
         time.sleep(0.005)
 
-    # date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    # with open(f".\data\{date}_road_data.json", "w") as outfile:
-    return json.dump(everything)
+    date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    with open(f".\data\{date}_road_data.json", "w") as outfile:
+        json.dump(everything, outfile, indent=1)
 
 if __name__ == "__main__":
     asyncio.run(main())

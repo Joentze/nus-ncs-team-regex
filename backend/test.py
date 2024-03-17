@@ -1,10 +1,15 @@
 import pandas as pd
+import asyncio
 from functions.traffic_messages.message import Message
 from functions.carpark.carpark import Carpark
 from functions.public_transport.public_transport import PublicTransportFinder
 from functions.crowd_density import Stations, get_crowd_density
+from functions.traffic_speed.traffic_flow_call import main
 
 if __name__ == "__main__":
+    # Traffic_flow (Nic)
+    traffic_flow = asyncio.run(main("./misc/stadium-roads-table.csv"))
+    print(traffic_flow)
 
     # Message (Jerric)
     obj = Message()
