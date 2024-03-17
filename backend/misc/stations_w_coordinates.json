@@ -1,0 +1,2723 @@
+[
+    {
+        "name": "Damai",
+        "name_zh-Hans": "达迈",
+        "name_ta": "டாமாய்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE7",
+        "station_colors": "gray",
+        "wikipedia": "en:Damai LRT station (Singapore)",
+        "wikipedia_slug": "Damai_LRT_station_(Singapore)",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.908556,
+            1.405282
+        ]
+    },
+    {
+        "name": "Eunos",
+        "name_zh-Hans": "友诺士",
+        "name_ta": "யூனுஸ்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW7",
+        "station_colors": "green",
+        "wikipedia": "en:Eunos MRT station",
+        "wikipedia_slug": "Eunos_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.903058,
+            1.319814
+        ]
+    },
+    {
+        "name": "Farmway",
+        "name_zh-Hans": "农道",
+        "name_ta": "ஃபாம்வே",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW2",
+        "station_colors": "gray",
+        "wikipedia": "en:Farmway LRT station",
+        "wikipedia_slug": "Farmway_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.889167,
+            1.397191
+        ]
+    },
+    {
+        "name": "Gul Circle",
+        "name_zh-Hans": "卡尔圈",
+        "name_ta": "கல் சர்க்கல்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW30",
+        "station_colors": "green",
+        "wikipedia": "en:Gul Circle MRT station",
+        "wikipedia_slug": "Gul_Circle_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.660415,
+            1.319423
+        ]
+    },
+    {
+        "name": "Kaki Bukit ",
+        "name_zh-Hans": "加基武吉",
+        "name_ta": "காக்கி புக்கிட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT28",
+        "station_colors": "blue",
+        "wikipedia": "en:Kaki Bukit MRT station",
+        "wikipedia_slug": "Kaki_Bukit_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.908611,
+            1.335024
+        ]
+    },
+    {
+        "name": "Meridian",
+        "name_zh-Hans": "丽园",
+        "name_ta": "மெரிடியன்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE2",
+        "station_colors": "gray",
+        "wikipedia": "en:Meridian LRT station",
+        "wikipedia_slug": "Meridian_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.908874,
+            1.396976
+        ]
+    },
+    {
+        "name": "Bartley",
+        "name_zh-Hans": "巴特礼",
+        "name_ta": "பார்ட்லி",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC12",
+        "station_colors": "yellow",
+        "wikipedia": "en:Bartley MRT station",
+        "wikipedia_slug": "Bartley_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.880449,
+            1.342438
+        ]
+    },
+    {
+        "name": "Simei",
+        "name_zh-Hans": "四美",
+        "name_ta": "ஸீமெய்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW3",
+        "station_colors": "green",
+        "wikipedia": "en:Simei MRT station",
+        "wikipedia_slug": "Simei_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.953376,
+            1.343179
+        ]
+    },
+    {
+        "name": "Woodlands",
+        "name_zh-Hans": "兀兰",
+        "name_ta": "ஊட்லண்ட்ஸ்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS9-TE2",
+        "station_colors": "red-brown",
+        "wikipedia": "en:Woodlands MRT station",
+        "wikipedia_slug": "Woodlands_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.787675,
+            1.437388
+        ]
+    },
+    {
+        "name": "Marymount",
+        "name_zh-Hans": "玛丽蒙",
+        "name_ta": "மேரிமவுண்ட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC16",
+        "station_colors": "yellow",
+        "wikipedia": "en:Marymount MRT station",
+        "wikipedia_slug": "Marymount_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.839238,
+            1.348614
+        ]
+    },
+    {
+        "name": "Telok Blangah",
+        "name_zh-Hans": "直落布兰雅",
+        "name_ta": "தெலுக் பிளாங்கா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC28",
+        "station_colors": "yellow",
+        "wikipedia": "en:Telok Blangah MRT station",
+        "wikipedia_slug": "Telok_Blangah_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.809863,
+            1.270586
+        ]
+    },
+    {
+        "name": "Soo Teck",
+        "name_zh-Hans": "树德",
+        "name_ta": "சூ டெக்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW7",
+        "station_colors": "gray",
+        "wikipedia": "en:Soo Teck LRT station",
+        "wikipedia_slug": "Soo_Teck_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.897237,
+            1.405394
+        ]
+    },
+    {
+        "name": "Bukit Panjang",
+        "name_zh-Hans": "武吉班让",
+        "name_ta": "புக்கிட் பாஞ்சாங்",
+        "network": "singapore-lrt.singapore-mrt",
+        "network_count": 2,
+        "station_codes": "DT1-BP6",
+        "station_colors": "blue-gray",
+        "wikipedia": "en:Bukit Panjang MRT/LRT station",
+        "wikipedia_slug": "Bukit_Panjang_MRT/LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.762138,
+            1.378296
+        ]
+    },
+    {
+        "name": "Punggol",
+        "name_zh-Hans": "榜鹅",
+        "name_ta": "பொங்கோல்",
+        "network": "singapore-lrt.singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NE17-PTC",
+        "station_colors": "purple-gray",
+        "wikipedia": "en:Punggol MRT/LRT station",
+        "wikipedia_slug": "Punggol_MRT/LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.902354,
+            1.405255
+        ]
+    },
+    {
+        "name": "Novena",
+        "name_zh-Hans": "诺维娜",
+        "name_ta": "நொவீனா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS20",
+        "station_colors": "red",
+        "wikipedia": "en:Novena MRT station",
+        "wikipedia_slug": "Novena_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.843492,
+            1.320084
+        ]
+    },
+    {
+        "name": "Kranji",
+        "name_zh-Hans": "克兰芝",
+        "name_ta": "கிராஞ்சி",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS7",
+        "station_colors": "red",
+        "wikipedia": "en:Kranji MRT station",
+        "wikipedia_slug": "Kranji_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.761989,
+            1.425219
+        ]
+    },
+    {
+        "name": "Tampines West",
+        "name_zh-Hans": "淡滨尼西",
+        "name_ta": "தெம்பினிஸ் வெஸ்ட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT31",
+        "station_colors": "blue",
+        "wikipedia": "en:Tampines West MRT station",
+        "wikipedia_slug": "Tampines_West_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.93856,
+            1.345519
+        ]
+    },
+    {
+        "name": "one-north",
+        "name_zh-Hans": "纬壹",
+        "name_ta": "ஒன்-நார்த்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC23",
+        "station_colors": "yellow",
+        "wikipedia": "en:One-north MRT station",
+        "wikipedia_slug": "One-north_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.787241,
+            1.299607
+        ]
+    },
+    {
+        "name": "Thanggam",
+        "name_zh-Hans": "丹甘",
+        "name_ta": "தங்கம்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW4",
+        "station_colors": "gray",
+        "wikipedia": "en:Thanggam LRT station",
+        "wikipedia_slug": "Thanggam_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.875645,
+            1.397434
+        ]
+    },
+    {
+        "name": "Bras Basah",
+        "name_zh-Hans": "百胜",
+        "name_ta": "பிராஸ் பாசா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC2",
+        "station_colors": "yellow",
+        "wikipedia": "en:Bras Basah MRT station",
+        "wikipedia_slug": "Bras_Basah_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.85055,
+            1.296896
+        ]
+    },
+    {
+        "name": "Pasir Ris",
+        "name_zh-Hans": "巴西立",
+        "name_ta": "பாசிர் ரிஸ்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW1",
+        "station_colors": "green",
+        "wikipedia": "en:Pasir Ris MRT station",
+        "wikipedia_slug": "Pasir_Ris_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.949255,
+            1.373031
+        ]
+    },
+    {
+        "name": "Fajar",
+        "name_zh-Hans": "法嘉",
+        "name_ta": "ஃபஜார்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP10",
+        "station_colors": "gray",
+        "wikipedia": "en:Fajar LRT station",
+        "wikipedia_slug": "Fajar_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.7708,
+            1.38455
+        ]
+    },
+    {
+        "name": "Kovan",
+        "name_zh-Hans": "高文",
+        "name_ta": "கோவன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE13",
+        "station_colors": "purple",
+        "wikipedia": "en:Kovan MRT station",
+        "wikipedia_slug": "Kovan_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.884874,
+            1.359977
+        ]
+    },
+    {
+        "name": "Fernvale",
+        "name_zh-Hans": "芬微",
+        "name_ta": "ஃபொ்ன்வேல்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW5",
+        "station_colors": "gray",
+        "wikipedia": "en:Fernvale LRT station",
+        "wikipedia_slug": "Fernvale_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.876297,
+            1.391916
+        ]
+    },
+    {
+        "name": "Marina Bay",
+        "name_zh-Hans": "滨海湾",
+        "name_ta": "மரீனா பே",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS27-CE2",
+        "station_colors": "red-yellow",
+        "wikipedia": "en:Marina Bay MRT station",
+        "wikipedia_slug": "Marina_Bay_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.854751,
+            1.275171
+        ]
+    },
+    {
+        "name": "Lorong Chuan",
+        "name_zh-Hans": "罗弄泉",
+        "name_ta": "லோரோங் சுவான்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC14",
+        "station_colors": "yellow",
+        "wikipedia": "en:Lorong Chuan MRT station",
+        "wikipedia_slug": "Lorong_Chuan_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.863395,
+            1.351488
+        ]
+    },
+    {
+        "name": "Coral Edge",
+        "name_zh-Hans": "珊瑚",
+        "name_ta": "கோரல் எட்ஜ்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE3",
+        "station_colors": "gray",
+        "wikipedia": "en:Coral Edge LRT station",
+        "wikipedia_slug": "Coral_Edge_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.912643,
+            1.393876
+        ]
+    },
+    {
+        "name": "Upper Changi",
+        "name_zh-Hans": "樟宜上段",
+        "name_ta": "அப்பர் சாங்கி",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT34",
+        "station_colors": "blue",
+        "wikipedia": "en:Upper Changi MRT station",
+        "wikipedia_slug": "Upper_Changi_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.961263,
+            1.34169
+        ]
+    },
+    {
+        "name": "Bangkit",
+        "name_zh-Hans": "万吉",
+        "name_ta": "பங்கிட்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP9",
+        "station_colors": "gray",
+        "wikipedia": "en:Bangkit LRT station",
+        "wikipedia_slug": "Bangkit_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.772644,
+            1.380055
+        ]
+    },
+    {
+        "name": "Rochor",
+        "name_zh-Hans": "梧槽",
+        "name_ta": "ரோச்சோர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT13",
+        "station_colors": "blue",
+        "wikipedia": "en:Rochor MRT station",
+        "wikipedia_slug": "Rochor_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.852634,
+            1.303951
+        ]
+    },
+    {
+        "name": "Lakeside",
+        "name_zh-Hans": "湖畔",
+        "name_ta": "ஏரிக்கரை",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW26",
+        "station_colors": "green",
+        "wikipedia": "en:Lakeside MRT station",
+        "wikipedia_slug": "Lakeside_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.720801,
+            1.344303
+        ]
+    },
+    {
+        "name": "Bishan",
+        "name_zh-Hans": "碧山",
+        "name_ta": "பீஷான்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS17-CC15",
+        "station_colors": "red-yellow",
+        "wikipedia": "en:Bishan MRT station",
+        "wikipedia_slug": "Bishan_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.848263,
+            1.351455
+        ]
+    },
+    {
+        "name": "Tai Seng",
+        "name_zh-Hans": "大成",
+        "name_ta": "தை செங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC11",
+        "station_colors": "yellow",
+        "wikipedia": "en:Tai Seng MRT station",
+        "wikipedia_slug": "Tai_Seng_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.88815,
+            1.334866
+        ]
+    },
+    {
+        "name": "King Albert Park",
+        "name_zh-Hans": "阿尔柏王园",
+        "name_ta": "கிங் ஆல்பர்ட் பார்க்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT6",
+        "station_colors": "blue",
+        "wikipedia": "en:King Albert Park MRT station",
+        "wikipedia_slug": "King_Albert_Park_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.78416,
+            1.33566
+        ]
+    },
+    {
+        "name": "Boon Lay",
+        "name_zh-Hans": "文礼",
+        "name_ta": "பூன் லே",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW27",
+        "station_colors": "green",
+        "wikipedia": "en:Boon Lay MRT station",
+        "wikipedia_slug": "Boon_Lay_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.705777,
+            1.338472
+        ]
+    },
+    {
+        "name": "Hougang",
+        "name_zh-Hans": "后港",
+        "name_ta": "ஹவ்காங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE14",
+        "station_colors": "purple",
+        "wikipedia": "en:Hougang MRT station",
+        "wikipedia_slug": "Hougang_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.892754,
+            1.371904
+        ]
+    },
+    {
+        "name": "Bukit Batok",
+        "name_zh-Hans": "武吉巴督",
+        "name_ta": "புக்கிட் பாத்தோக்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS2",
+        "station_colors": "red",
+        "wikipedia": "en:Bukit Batok MRT station",
+        "wikipedia_slug": "Bukit_Batok_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.749591,
+            1.349057
+        ]
+    },
+    {
+        "name": "Teck Lee",
+        "name_zh-Hans": "德利",
+        "name_ta": "டெக் லீ",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW2",
+        "station_colors": "gray",
+        "wikipedia": "en:Teck Lee LRT station",
+        "wikipedia_slug": "Teck_Lee_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.906653,
+            1.412705
+        ]
+    },
+    {
+        "name": "Outram Park",
+        "name_zh-Hans": "欧南园",
+        "name_ta": "ஊட்ரம் பார்க்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "EW16-NE3",
+        "station_colors": "green-purple",
+        "wikipedia": "en:Outram Park MRT station",
+        "wikipedia_slug": "Outram_Park_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.840241,
+            1.280685
+        ]
+    },
+    {
+        "name": "Lavender",
+        "name_zh-Hans": "劳明达",
+        "name_ta": "லவண்டர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW11",
+        "station_colors": "green",
+        "wikipedia": "en:Lavender MRT station",
+        "wikipedia_slug": "Lavender_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.86303,
+            1.307445
+        ]
+    },
+    {
+        "name": "Potong Pasir",
+        "name_zh-Hans": "波东巴西",
+        "name_ta": "போத்தோங் பாசிர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE10",
+        "station_colors": "purple",
+        "wikipedia": "en:Potong Pasir MRT station",
+        "wikipedia_slug": "Potong_Pasir_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.869093,
+            1.331254
+        ]
+    },
+    {
+        "name": "Little India",
+        "name_zh-Hans": "小印度",
+        "name_ta": "லிட்டில் இந்தியா",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NE7-DT12",
+        "station_colors": "purple-blue",
+        "wikipedia": "en:Little India MRT station",
+        "wikipedia_slug": "Little_India_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.849299,
+            1.306571
+        ]
+    },
+    {
+        "name": "Nibong",
+        "name_zh-Hans": "尼蒙",
+        "name_ta": "நிபொங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW5",
+        "station_colors": "gray",
+        "wikipedia": "en:Nibong LRT station",
+        "wikipedia_slug": "Nibong_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.900305,
+            1.411831
+        ]
+    },
+    {
+        "name": "Stevens",
+        "name_zh-Hans": "史蒂芬",
+        "name_ta": "ஸ்டீவன்ஸ்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT10",
+        "station_colors": "blue",
+        "wikipedia": "en:Stevens MRT station",
+        "wikipedia_slug": "Stevens_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.825461,
+            1.320192
+        ]
+    },
+    {
+        "name": "Bedok",
+        "name_zh-Hans": "勿洛",
+        "name_ta": "பிடோக்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW5",
+        "station_colors": "green",
+        "wikipedia": "en:Bedok MRT station",
+        "wikipedia_slug": "Bedok_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.929995,
+            1.323935
+        ]
+    },
+    {
+        "name": "Clarke Quay",
+        "name_zh-Hans": "克拉码头",
+        "name_ta": "கிளார்க் கீ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE5",
+        "station_colors": "purple",
+        "wikipedia": "en:Clarke Quay MRT station",
+        "wikipedia_slug": "Clarke_Quay_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.846869,
+            1.288981
+        ]
+    },
+    {
+        "name": "Buona Vista",
+        "name_zh-Hans": "波那维斯达",
+        "name_ta": "புவன விஸ்தா",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "EW21-CC22",
+        "station_colors": "green-yellow",
+        "wikipedia": "en:Buona Vista MRT station",
+        "wikipedia_slug": "Buona_Vista_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.790838,
+            1.30719
+        ]
+    },
+    {
+        "name": "Marsiling",
+        "name_zh-Hans": "马西岭",
+        "name_ta": "மார்சிலிங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS8",
+        "station_colors": "red",
+        "wikipedia": "en:Marsiling MRT station",
+        "wikipedia_slug": "Marsiling_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.774216,
+            1.432542
+        ]
+    },
+    {
+        "name": "Aljunied",
+        "name_zh-Hans": "阿裕尼",
+        "name_ta": "அல்ஜூனிட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW9",
+        "station_colors": "green",
+        "wikipedia": "en:Aljunied MRT station",
+        "wikipedia_slug": "Aljunied_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.882882,
+            1.316484
+        ]
+    },
+    {
+        "name": "Serangoon",
+        "name_zh-Hans": "实龙岗",
+        "name_ta": "சிராங்கூன்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NE12-CC13",
+        "station_colors": "purple-yellow",
+        "wikipedia": "en:Serangoon MRT station",
+        "wikipedia_slug": "Serangoon_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.873771,
+            1.349807
+        ]
+    },
+    {
+        "name": "Yishun",
+        "name_zh-Hans": "义顺",
+        "name_ta": "யீஷூன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS13",
+        "station_colors": "red",
+        "wikipedia": "en:Yishun MRT station",
+        "wikipedia_slug": "Yishun_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.835028,
+            1.429384
+        ]
+    },
+    {
+        "name": "Chinese Garden",
+        "name_zh-Hans": "裕华园",
+        "name_ta": "சீனத் தோட்டம்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW25",
+        "station_colors": "green",
+        "wikipedia": "en:Chinese Garden MRT station",
+        "wikipedia_slug": "Chinese_Garden_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.732594,
+            1.34247
+        ]
+    },
+    {
+        "name": "Khatib",
+        "name_zh-Hans": "卡迪",
+        "name_ta": "காதிப்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS14",
+        "station_colors": "red",
+        "wikipedia": "en:Khatib MRT station",
+        "wikipedia_slug": "Khatib_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.832998,
+            1.417316
+        ]
+    },
+    {
+        "name": "Tuas West Road",
+        "name_zh-Hans": "大士西路",
+        "name_ta": "துவாஸ் வெஸ்ட் ரோடு",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW32",
+        "station_colors": "green",
+        "wikipedia": "en:Tuas West Road MRT station",
+        "wikipedia_slug": "Tuas_West_Road_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.640149,
+            1.329495
+        ]
+    },
+    {
+        "name": "Marina South Pier",
+        "name_zh-Hans": "滨海南码头",
+        "name_ta": "மரினா சவுத் படகுத்துறை",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS28",
+        "station_colors": "red",
+        "wikipedia": "en:Marina South Pier MRT station",
+        "wikipedia_slug": "Marina_South_Pier_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.862723,
+            1.27175
+        ]
+    },
+    {
+        "name": "Tampines",
+        "name_zh-Hans": "淡滨尼",
+        "name_ta": "தெம்பினிஸ்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "EW2-DT32",
+        "station_colors": "green-blue",
+        "wikipedia": "en:Tampines MRT station",
+        "wikipedia_slug": "Tampines_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.945084,
+            1.353374
+        ]
+    },
+    {
+        "name": "Dover",
+        "name_zh-Hans": "杜弗",
+        "name_ta": "டோவெர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW22",
+        "station_colors": "green",
+        "wikipedia": "en:Dover MRT station",
+        "wikipedia_slug": "Dover_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.778628,
+            1.311421
+        ]
+    },
+    {
+        "name": "Raffles Place",
+        "name_zh-Hans": "莱佛士坊",
+        "name_ta": "ராஃபிள்ஸ் பிளேஸ்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS26-EW14",
+        "station_colors": "red-green",
+        "wikipedia": "en:Raffles Place MRT station",
+        "wikipedia_slug": "Raffles_Place_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.85147,
+            1.284409
+        ]
+    },
+    {
+        "name": "Ubi ",
+        "name_zh-Hans": "乌美",
+        "name_ta": "உபி",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT27",
+        "station_colors": "blue",
+        "wikipedia": "en:Ubi MRT station",
+        "wikipedia_slug": "Ubi_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.899379,
+            1.329763
+        ]
+    },
+    {
+        "name": "Jelapang",
+        "name_zh-Hans": "泽拉邦",
+        "name_ta": "ஜெலப்பாங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP12",
+        "station_colors": "gray",
+        "wikipedia": "en:Jelapang LRT station",
+        "wikipedia_slug": "Jelapang_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.764515,
+            1.386683
+        ]
+    },
+    {
+        "name": "Cashew",
+        "name_zh-Hans": "凯秀",
+        "name_ta": "கேஷ்யூ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT2",
+        "station_colors": "blue",
+        "wikipedia": "en:Cashew MRT station",
+        "wikipedia_slug": "Cashew_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.764481,
+            1.369661
+        ]
+    },
+    {
+        "name": "Canberra",
+        "name_zh-Hans": "坎贝拉",
+        "name_ta": "கான்பரா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS12",
+        "station_colors": "red",
+        "wikipedia": "en:Canberra MRT station",
+        "wikipedia_slug": "Canberra_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.829502,
+            1.443369
+        ]
+    },
+    {
+        "name": "Compassvale",
+        "name_zh-Hans": "康埔桦",
+        "name_ta": "கம்பஸ்வேல்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SE1",
+        "station_colors": "gray",
+        "wikipedia": "en:Compassvale LRT station",
+        "wikipedia_slug": "Compassvale_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.900435,
+            1.394518
+        ]
+    },
+    {
+        "name": "Geylang Bahru",
+        "name_zh-Hans": "芽笼峇鲁",
+        "name_ta": "கேலாங் பாரு",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT24",
+        "station_colors": "blue",
+        "wikipedia": "en:Geylang Bahru MRT station",
+        "wikipedia_slug": "Geylang_Bahru_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.871983,
+            1.321611
+        ]
+    },
+    {
+        "name": "Teck Whye",
+        "name_zh-Hans": "德惠",
+        "name_ta": "டெக் வாய்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP4",
+        "station_colors": "gray",
+        "wikipedia": "en:Teck Whye LRT station",
+        "wikipedia_slug": "Teck_Whye_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.753647,
+            1.37667
+        ]
+    },
+    {
+        "name": "Punggol Point",
+        "name_zh-Hans": "榜鹅坊",
+        "name_ta": "பொங்கோல் பாயிண்ட்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW3",
+        "station_colors": "gray",
+        "wikipedia": "en:Punggol Point LRT station",
+        "wikipedia_slug": "Punggol_Point_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.906664,
+            1.416845
+        ]
+    },
+    {
+        "name": "Woodlands South",
+        "name_zh-Hans": "兀兰南",
+        "name_ta": "உட்லண்ட்ஸ் சவுத்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "TE3",
+        "station_colors": "brown",
+        "wikipedia": "en:Woodlands South MRT station",
+        "wikipedia_slug": "Woodlands_South_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.794295,
+            1.427145
+        ]
+    },
+    {
+        "name": "Hillview",
+        "name_zh-Hans": "山景",
+        "name_ta": "ஹில்வியூ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT3",
+        "station_colors": "blue",
+        "wikipedia": "en:Hillview MRT station",
+        "wikipedia_slug": "Hillview_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.767067,
+            1.362451
+        ]
+    },
+    {
+        "name": "Farrer Road",
+        "name_zh-Hans": "花拉路",
+        "name_ta": "ஃபேரர் சாலை",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC20",
+        "station_colors": "yellow",
+        "wikipedia": "en:Farrer Road MRT station",
+        "wikipedia_slug": "Farrer_Road_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.807785,
+            1.317628
+        ]
+    },
+    {
+        "name": "Sumang",
+        "name_zh-Hans": "苏芒",
+        "name_ta": "சுமாங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW6",
+        "station_colors": "gray",
+        "wikipedia": "en:Sumang LRT station",
+        "wikipedia_slug": "Sumang_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.898534,
+            1.408532
+        ]
+    },
+    {
+        "name": "Tongkang",
+        "name_zh-Hans": "同港",
+        "name_ta": "தொங்காங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW7",
+        "station_colors": "gray",
+        "wikipedia": "en:Tongkang LRT station",
+        "wikipedia_slug": "Tongkang_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.885807,
+            1.389445
+        ]
+    },
+    {
+        "name": "Layar",
+        "name_zh-Hans": "拉雅",
+        "name_ta": "லாயார்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW6",
+        "station_colors": "gray",
+        "wikipedia": "en:Layar LRT station",
+        "wikipedia_slug": "Layar_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.880074,
+            1.392114
+        ]
+    },
+    {
+        "name": "Haw Par Villa",
+        "name_zh-Hans": "虎豹别墅",
+        "name_ta": "ஹா பர் வில்லா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC25",
+        "station_colors": "yellow",
+        "wikipedia": "en:Haw Par Villa MRT station",
+        "wikipedia_slug": "Haw_Par_Villa_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.781772,
+            1.282654
+        ]
+    },
+    {
+        "name": "Esplanade",
+        "name_zh-Hans": "滨海中心",
+        "name_ta": "எஸ்பிளனேட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC3",
+        "station_colors": "yellow",
+        "wikipedia": "en:Esplanade MRT station",
+        "wikipedia_slug": "Esplanade_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.855974,
+            1.293258
+        ]
+    },
+    {
+        "name": "Petir",
+        "name_zh-Hans": "柏提",
+        "name_ta": "பெட்டீர்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP7",
+        "station_colors": "gray",
+        "wikipedia": "en:Petir LRT station",
+        "wikipedia_slug": "Petir_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.766634,
+            1.377756
+        ]
+    },
+    {
+        "name": "Ranggung",
+        "name_zh-Hans": "兰岗",
+        "name_ta": "ரங்கோங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SE5",
+        "station_colors": "gray",
+        "wikipedia": "en:Ranggung LRT station",
+        "wikipedia_slug": "Ranggung_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.897349,
+            1.38403
+        ]
+    },
+    {
+        "name": "South View",
+        "name_zh-Hans": "南景",
+        "name_ta": "சவுத் வியூ",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP2",
+        "station_colors": "gray",
+        "wikipedia": "en:South View LRT station",
+        "wikipedia_slug": "South_View_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.745285,
+            1.38026
+        ]
+    },
+    {
+        "name": "Newton",
+        "name_zh-Hans": "纽顿",
+        "name_ta": "நியூட்டன்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS21-DT11",
+        "station_colors": "red-blue",
+        "wikipedia": "en:Newton MRT station",
+        "wikipedia_slug": "Newton_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.838864,
+            1.31296
+        ]
+    },
+    {
+        "name": "Toa Payoh",
+        "name_zh-Hans": "大巴窑",
+        "name_ta": "தோ பாயோ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS19",
+        "station_colors": "red",
+        "wikipedia": "en:Toa Payoh MRT station",
+        "wikipedia_slug": "Toa_Payoh_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.847327,
+            1.332297
+        ]
+    },
+    {
+        "name": "Braddell",
+        "name_zh-Hans": "布莱德",
+        "name_ta": "பிரேடல்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS18",
+        "station_colors": "red",
+        "wikipedia": "en:Braddell MRT station",
+        "wikipedia_slug": "Braddell_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.846788,
+            1.340599
+        ]
+    },
+    {
+        "name": "Tanah Merah",
+        "name_zh-Hans": "丹那美拉",
+        "name_ta": "தானா மேரா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW4",
+        "station_colors": "green",
+        "wikipedia": "en:Tanah Merah MRT station",
+        "wikipedia_slug": "Tanah_Merah_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.946513,
+            1.327262
+        ]
+    },
+    {
+        "name": "Renjong",
+        "name_zh-Hans": "仁宗",
+        "name_ta": "ரெஞ்சோங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW8",
+        "station_colors": "gray",
+        "wikipedia": "en:Renjong LRT station",
+        "wikipedia_slug": "Renjong_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.890485,
+            1.386708
+        ]
+    },
+    {
+        "name": "Commonwealth",
+        "name_zh-Hans": "联邦",
+        "name_ta": "காமன்வெல்த்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW20",
+        "station_colors": "green",
+        "wikipedia": "en:Commonwealth MRT station",
+        "wikipedia_slug": "Commonwealth_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.798308,
+            1.302443
+        ]
+    },
+    {
+        "name": "Tanjong Pagar",
+        "name_zh-Hans": "丹戎巴葛",
+        "name_ta": "தஞ்சோங் பகார்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW15",
+        "station_colors": "green",
+        "wikipedia": "en:Tanjong Pagar MRT station",
+        "wikipedia_slug": "Tanjong_Pagar_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.845884,
+            1.276574
+        ]
+    },
+    {
+        "name": "Pioneer",
+        "name_zh-Hans": "先驱",
+        "name_ta": "பயனியர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW28",
+        "station_colors": "green",
+        "wikipedia": "en:Pioneer MRT station",
+        "wikipedia_slug": "Pioneer_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.697354,
+            1.337575
+        ]
+    },
+    {
+        "name": "MacPherson",
+        "name_zh-Hans": "麦波申",
+        "name_ta": "மெக்பர்சன்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "CC10-DT26",
+        "station_colors": "yellow-blue",
+        "wikipedia": "en:MacPherson MRT station",
+        "wikipedia_slug": "MacPherson_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.890306,
+            1.326567
+        ]
+    },
+    {
+        "name": "Keat Hong",
+        "name_zh-Hans": "吉丰",
+        "name_ta": "கியட் ஹோங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP3",
+        "station_colors": "gray",
+        "wikipedia": "en:Keat Hong LRT station",
+        "wikipedia_slug": "Keat_Hong_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.74903,
+            1.378599
+        ]
+    },
+    {
+        "name": "Kent Ridge",
+        "name_zh-Hans": "肯特岗",
+        "name_ta": "கெண்ட் ரிஜ்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC24",
+        "station_colors": "yellow",
+        "wikipedia": "en:Kent Ridge MRT station",
+        "wikipedia_slug": "Kent_Ridge_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.784413,
+            1.293301
+        ]
+    },
+    {
+        "name": "Promenade",
+        "name_zh-Hans": "宝门廊",
+        "name_ta": "புரொமனாட்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "CC4-DT15",
+        "station_colors": "yellow-blue",
+        "wikipedia": "en:Promenade MRT station",
+        "wikipedia_slug": "Promenade_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.860151,
+            1.293854
+        ]
+    },
+    {
+        "name": "Kadaloor",
+        "name_zh-Hans": "卡达鲁",
+        "name_ta": "கடலூர்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE5",
+        "station_colors": "gray",
+        "wikipedia": "en:Kadaloor LRT station",
+        "wikipedia_slug": "Kadaloor_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.916445,
+            1.399601
+        ]
+    },
+    {
+        "name": "Jalan Besar",
+        "name_zh-Hans": "惹兰勿刹",
+        "name_ta": "ஜாலான் புசார்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT22",
+        "station_colors": "blue",
+        "wikipedia": "en:Jalan Besar MRT station",
+        "wikipedia_slug": "Jalan_Besar_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.85523,
+            1.305125
+        ]
+    },
+    {
+        "name": "Senja",
+        "name_zh-Hans": "信佳",
+        "name_ta": "சென்ஜா",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP13",
+        "station_colors": "gray",
+        "wikipedia": "en:Senja LRT station",
+        "wikipedia_slug": "Senja_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.762382,
+            1.382678
+        ]
+    },
+    {
+        "name": "Dakota",
+        "name_zh-Hans": "达科达",
+        "name_ta": "டகோட்டா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC8",
+        "station_colors": "yellow",
+        "wikipedia": "en:Dakota MRT station",
+        "wikipedia_slug": "Dakota_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.88832,
+            1.308438
+        ]
+    },
+    {
+        "name": "Somerset",
+        "name_zh-Hans": "索美塞",
+        "name_ta": "சாமர்செட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS23",
+        "station_colors": "red",
+        "wikipedia": "en:Somerset MRT station",
+        "wikipedia_slug": "Somerset_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.838504,
+            1.300328
+        ]
+    },
+    {
+        "name": "Holland Village",
+        "name_zh-Hans": "荷兰村",
+        "name_ta": "ஹாலந்து வில்லேஜ்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC21",
+        "station_colors": "yellow",
+        "wikipedia": "en:Holland Village MRT station",
+        "wikipedia_slug": "Holland_Village_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.795744,
+            1.312117
+        ]
+    },
+    {
+        "name": "Dhoby Ghaut",
+        "name_zh-Hans": "多美歌",
+        "name_ta": "டோபி காட்",
+        "network": "singapore-mrt",
+        "network_count": 3,
+        "station_codes": "NS24-NE6-CC1",
+        "station_colors": "red-purple-yellow",
+        "wikipedia": "en:Dhoby Ghaut MRT station",
+        "wikipedia_slug": "Dhoby_Ghaut_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.84502,
+            1.298786
+        ]
+    },
+    {
+        "name": "Fort Canning",
+        "name_zh-Hans": "福康宁",
+        "name_ta": "ஃபோர்ட் கெனிங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT20",
+        "station_colors": "blue",
+        "wikipedia": "en:Fort Canning MRT station",
+        "wikipedia_slug": "Fort_Canning_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.844157,
+            1.292393
+        ]
+    },
+    {
+        "name": "Beauty World",
+        "name_zh-Hans": "美世界",
+        "name_ta": "பியூட்டி வோர்ல்ட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT5",
+        "station_colors": "blue",
+        "wikipedia": "en:Beauty World MRT station",
+        "wikipedia_slug": "Beauty_World_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.775936,
+            1.341664
+        ]
+    },
+    {
+        "name": "Bukit Gombak",
+        "name_zh-Hans": "武吉甘柏",
+        "name_ta": "புக்கிட் கோம்பாக்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS3",
+        "station_colors": "red",
+        "wikipedia": "en:Bukit Gombak MRT station",
+        "wikipedia_slug": "Bukit_Gombak_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.751825,
+            1.358893
+        ]
+    },
+    {
+        "name": "Stadium",
+        "name_zh-Hans": "体育场",
+        "name_ta": "ஸ்டேடியம்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC6",
+        "station_colors": "yellow",
+        "wikipedia": "en:Stadium MRT station",
+        "wikipedia_slug": "Stadium_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.875402,
+            1.302778
+        ]
+    },
+    {
+        "name": "Clementi",
+        "name_zh-Hans": "金文泰",
+        "name_ta": "கிளிமெண்டி",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW23",
+        "station_colors": "green",
+        "wikipedia": "en:Clementi MRT station",
+        "wikipedia_slug": "Clementi_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.765231,
+            1.3151
+        ]
+    },
+    {
+        "name": "Segar",
+        "name_zh-Hans": "实加",
+        "name_ta": "செகார்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP11",
+        "station_colors": "gray",
+        "wikipedia": "en:Segar LRT station",
+        "wikipedia_slug": "Segar_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.769593,
+            1.387792
+        ]
+    },
+    {
+        "name": "Phoenix",
+        "name_zh-Hans": "凤凰",
+        "name_ta": "ஃபீனிக்ஸ்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP5",
+        "station_colors": "gray",
+        "wikipedia": "en:Phoenix LRT station",
+        "wikipedia_slug": "Phoenix_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.758008,
+            1.378616
+        ]
+    },
+    {
+        "name": "Bencoolen",
+        "name_zh-Hans": "明古连",
+        "name_ta": "பென்கூலன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT21",
+        "station_colors": "blue",
+        "wikipedia": "en:Bencoolen MRT station",
+        "wikipedia_slug": "Bencoolen_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.850369,
+            1.298861
+        ]
+    },
+    {
+        "name": "Sixth Avenue",
+        "name_zh-Hans": "第六道",
+        "name_ta": "சிக்ஸ்த் அவென்யூ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT7",
+        "station_colors": "blue",
+        "wikipedia": "en:Sixth Avenue MRT station",
+        "wikipedia_slug": "Sixth_Avenue_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.797225,
+            1.330591
+        ]
+    },
+    {
+        "name": "City Hall",
+        "name_zh-Hans": "政府大厦",
+        "name_ta": "நகர மண்டபம்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS25-EW13",
+        "station_colors": "red-green",
+        "wikipedia": "en:City Hall MRT station",
+        "wikipedia_slug": "City_Hall_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.852573,
+            1.293047
+        ]
+    },
+    {
+        "name": "Kupang",
+        "name_zh-Hans": "古邦",
+        "name_ta": "கூப்பாங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW3",
+        "station_colors": "gray",
+        "wikipedia": "en:Kupang LRT station",
+        "wikipedia_slug": "Kupang_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.881244,
+            1.398204
+        ]
+    },
+    {
+        "name": "Rumbia",
+        "name_zh-Hans": "棕美",
+        "name_ta": "ரூம்பியா",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SE2",
+        "station_colors": "gray",
+        "wikipedia": "en:Rumbia LRT station",
+        "wikipedia_slug": "Rumbia_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.905937,
+            1.391509
+        ]
+    },
+    {
+        "name": "Bayfront",
+        "name_zh-Hans": "海湾舫",
+        "name_ta": "பேஃபிரண்ட்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "DT16-CE1",
+        "station_colors": "blue-yellow",
+        "wikipedia": "en:Bayfront MRT station",
+        "wikipedia_slug": "Bayfront_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.85973,
+            1.282535
+        ]
+    },
+    {
+        "name": "Chinatown",
+        "name_zh-Hans": "牛车水",
+        "name_ta": "சைனாடவுன்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NE4-DT19",
+        "station_colors": "purple-blue",
+        "wikipedia": "en:Chinatown MRT station",
+        "wikipedia_slug": "Chinatown_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.844003,
+            1.28502
+        ]
+    },
+    {
+        "name": "Mattar",
+        "name_zh-Hans": "玛达",
+        "name_ta": "மாத்தார்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT25",
+        "station_colors": "blue",
+        "wikipedia": "en:Mattar MRT station",
+        "wikipedia_slug": "Mattar_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.882958,
+            1.326969
+        ]
+    },
+    {
+        "name": "Paya Lebar",
+        "name_zh-Hans": "巴耶利峇",
+        "name_ta": "பாய லேபார்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "EW8-CC9",
+        "station_colors": "green-yellow",
+        "wikipedia": "en:Paya Lebar MRT station",
+        "wikipedia_slug": "Paya_Lebar_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.892318,
+            1.31805
+        ]
+    },
+    {
+        "name": "Sembawang",
+        "name_zh-Hans": "三巴旺",
+        "name_ta": "செம்பாவாங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS11",
+        "station_colors": "red",
+        "wikipedia": "en:Sembawang MRT station",
+        "wikipedia_slug": "Sembawang_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.820056,
+            1.449093
+        ]
+    },
+    {
+        "name": "Jurong East",
+        "name_zh-Hans": "裕廊东",
+        "name_ta": "ஜூரோங் கிழக்கு",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS1-EW24",
+        "station_colors": "red-green",
+        "wikipedia": "en:Jurong East MRT station",
+        "wikipedia_slug": "Jurong_East_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.742297,
+            1.333115
+        ]
+    },
+    {
+        "name": "Downtown",
+        "name_zh-Hans": "市中心",
+        "name_ta": "டௌன்டவுன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT17",
+        "station_colors": "blue",
+        "wikipedia": "en:Downtown MRT station",
+        "wikipedia_slug": "Downtown_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.853345,
+            1.279191
+        ]
+    },
+    {
+        "name": "Oasis",
+        "name_zh-Hans": "绿洲",
+        "name_ta": "ஓய்சிஸ்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE6",
+        "station_colors": "gray",
+        "wikipedia": "en:Oasis LRT station",
+        "wikipedia_slug": "Oasis_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.912684,
+            1.402317
+        ]
+    },
+    {
+        "name": "Tuas Crescent",
+        "name_zh-Hans": "大士弯",
+        "name_ta": "துவாஸ் கிரசண்ட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW31",
+        "station_colors": "green",
+        "wikipedia": "en:Tuas Crescent MRT station",
+        "wikipedia_slug": "Tuas_Crescent_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.64929,
+            1.320796
+        ]
+    },
+    {
+        "name": "Kallang",
+        "name_zh-Hans": "加冷",
+        "name_ta": "காலாங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW10",
+        "station_colors": "green",
+        "wikipedia": "en:Kallang MRT station",
+        "wikipedia_slug": "Kallang_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.871339,
+            1.311448
+        ]
+    },
+    {
+        "name": "Queenstown",
+        "name_zh-Hans": "女皇镇",
+        "name_ta": "குவீன்ஸ்டவுன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW19",
+        "station_colors": "green",
+        "wikipedia": "en:Queenstown MRT station",
+        "wikipedia_slug": "Queenstown_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.806052,
+            1.294552
+        ]
+    },
+    {
+        "name": "Botanic Gardens",
+        "name_zh-Hans": "植物园",
+        "name_ta": "பூ மலை",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "CC19-DT9",
+        "station_colors": "yellow-blue",
+        "wikipedia": "en:Botanic Gardens MRT station",
+        "wikipedia_slug": "Botanic_Gardens_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.815747,
+            1.322559
+        ]
+    },
+    {
+        "name": "Bedok Reservoir",
+        "name_zh-Hans": "勿洛蓄水池",
+        "name_ta": "பிடோக் ரெசவோர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT30",
+        "station_colors": "blue",
+        "wikipedia": "en:Bedok Reservoir MRT station",
+        "wikipedia_slug": "Bedok_Reservoir_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.931887,
+            1.336284
+        ]
+    },
+    {
+        "name": "Caldecott",
+        "name_zh-Hans": "加利谷",
+        "name_ta": "கால்டிகாட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC17",
+        "station_colors": "yellow",
+        "wikipedia": "en:Caldecott MRT station",
+        "wikipedia_slug": "Caldecott_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.839991,
+            1.33768
+        ]
+    },
+    {
+        "name": "Labrador Park",
+        "name_zh-Hans": "拉柏多公园",
+        "name_ta": "லாப்ரடார் பூங்கா",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC27",
+        "station_colors": "yellow",
+        "wikipedia": "en:Labrador Park MRT station",
+        "wikipedia_slug": "Labrador_Park_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.802782,
+            1.272328
+        ]
+    },
+    {
+        "name": "Bedok North",
+        "name_zh-Hans": "勿洛北",
+        "name_ta": "பிடோக் நார்த்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT29",
+        "station_colors": "blue",
+        "wikipedia": "en:Bedok North MRT station",
+        "wikipedia_slug": "Bedok_North_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.918036,
+            1.33475
+        ]
+    },
+    {
+        "name": "Admiralty",
+        "name_zh-Hans": "海军部",
+        "name_ta": "அட்மிரல்ட்டி",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS10",
+        "station_colors": "red",
+        "wikipedia": "en:Admiralty MRT station",
+        "wikipedia_slug": "Admiralty_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.800959,
+            1.440637
+        ]
+    },
+    {
+        "name": "Ang Mo Kio",
+        "name_zh-Hans": "宏茂桥",
+        "name_ta": "அங் மோ கியோ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS16",
+        "station_colors": "red",
+        "wikipedia": "en:Ang Mo Kio MRT station",
+        "wikipedia_slug": "Ang_Mo_Kio_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.84954,
+            1.370053
+        ]
+    },
+    {
+        "name": "Mountbatten",
+        "name_zh-Hans": "蒙巴登",
+        "name_ta": "மவுண்ட்பேட்டன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC7",
+        "station_colors": "yellow",
+        "wikipedia": "en:Mountbatten MRT station",
+        "wikipedia_slug": "Mountbatten_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.882496,
+            1.306249
+        ]
+    },
+    {
+        "name": "Yio Chu Kang",
+        "name_zh-Hans": "杨厝港",
+        "name_ta": "இயோ சூ காங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS15",
+        "station_colors": "red",
+        "wikipedia": "en:Yio Chu Kang MRT station",
+        "wikipedia_slug": "Yio_Chu_Kang_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.844965,
+            1.38178
+        ]
+    },
+    {
+        "name": "Tiong Bahru",
+        "name_zh-Hans": "中峇鲁",
+        "name_ta": "தியோங் பாரு",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW17",
+        "station_colors": "green",
+        "wikipedia": "en:Tiong Bahru MRT station",
+        "wikipedia_slug": "Tiong_Bahru_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.827642,
+            1.286095
+        ]
+    },
+    {
+        "name": "Pending",
+        "name_zh-Hans": "秉定",
+        "name_ta": "பெண்டிங்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "BP8",
+        "station_colors": "gray",
+        "wikipedia": "en:Pending LRT station",
+        "wikipedia_slug": "Pending_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.771259,
+            1.376184
+        ]
+    },
+    {
+        "name": "Nicoll Highway",
+        "name_zh-Hans": "尼诰大道",
+        "name_ta": "நிக்கல் நெடுஞ்சாலை",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC5",
+        "station_colors": "yellow",
+        "wikipedia": "en:Nicoll Highway MRT station",
+        "wikipedia_slug": "Nicoll_Highway_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.8635,
+            1.299671
+        ]
+    },
+    {
+        "name": "Buangkok",
+        "name_zh-Hans": "万国",
+        "name_ta": "புவாங்கோக்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE15",
+        "station_colors": "purple",
+        "wikipedia": "en:Buangkok MRT station",
+        "wikipedia_slug": "Buangkok_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.89305,
+            1.383056
+        ]
+    },
+    {
+        "name": "Sam Kee",
+        "name_zh-Hans": "三记",
+        "name_ta": "சாம் கீ",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW1",
+        "station_colors": "gray",
+        "wikipedia": "en:Sam Kee LRT station",
+        "wikipedia_slug": "Sam_Kee_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.904583,
+            1.40975
+        ]
+    },
+    {
+        "name": "Orchard",
+        "name_zh-Hans": "乌节",
+        "name_ta": "ஆர்ச்சர்ட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS22",
+        "station_colors": "red",
+        "wikipedia": "en:Orchard MRT station",
+        "wikipedia_slug": "Orchard_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.831982,
+            1.303223
+        ]
+    },
+    {
+        "name": "Cheng Lim",
+        "name_zh-Hans": "振林",
+        "name_ta": "செங் லிம்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SW1",
+        "station_colors": "gray",
+        "wikipedia": "en:Cheng Lim LRT station",
+        "wikipedia_slug": "Cheng_Lim_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.893713,
+            1.39631
+        ]
+    },
+    {
+        "name": "Kembangan",
+        "name_zh-Hans": "景万岸",
+        "name_ta": "கெம்பாங்கான்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW6",
+        "station_colors": "green",
+        "wikipedia": "en:Kembangan MRT station",
+        "wikipedia_slug": "Kembangan_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.912762,
+            1.321055
+        ]
+    },
+    {
+        "name": "Sengkang",
+        "name_zh-Hans": "盛港",
+        "name_ta": "செங்காங்",
+        "network": "singapore-lrt.singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NE16-STC",
+        "station_colors": "purple-gray",
+        "wikipedia": "en:Sengkang MRT/LRT station",
+        "wikipedia_slug": "Sengkang_MRT/LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.895294,
+            1.39133
+        ]
+    },
+    {
+        "name": "Kangkar",
+        "name_zh-Hans": "港脚",
+        "name_ta": "கங்கார்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SE4",
+        "station_colors": "gray",
+        "wikipedia": "en:Kangkar LRT station",
+        "wikipedia_slug": "Kangkar_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.902202,
+            1.383922
+        ]
+    },
+    {
+        "name": "Changi Airport",
+        "name_zh-Hans": "樟宜机场",
+        "name_ta": "சாங்கி விமானநிலையம்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CG2",
+        "station_colors": "green",
+        "wikipedia": "en:Changi Airport MRT station",
+        "wikipedia_slug": "Changi_Airport_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.988565,
+            1.357338
+        ]
+    },
+    {
+        "name": "Boon Keng",
+        "name_zh-Hans": "文庆",
+        "name_ta": "பூன் கெங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE9",
+        "station_colors": "purple",
+        "wikipedia": "en:Boon Keng MRT station",
+        "wikipedia_slug": "Boon_Keng_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.861521,
+            1.319824
+        ]
+    },
+    {
+        "name": "Riviera",
+        "name_zh-Hans": "里维拉",
+        "name_ta": "ரிவியாரா",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE4",
+        "station_colors": "gray",
+        "wikipedia": "en:Riviera MRT/LRT station",
+        "wikipedia_slug": "Riviera_MRT/LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.916135,
+            1.394581
+        ]
+    },
+    {
+        "name": "HarbourFront",
+        "name_zh-Hans": "港湾",
+        "name_ta": "துறைமுகம்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NE1-CC29",
+        "station_colors": "purple-yellow",
+        "wikipedia": "en:HarbourFront MRT station",
+        "wikipedia_slug": "HarbourFront_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.822403,
+            1.265391
+        ]
+    },
+    {
+        "name": "Bendemeer",
+        "name_zh-Hans": "明地迷亚",
+        "name_ta": "பெண்டிமியர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT23",
+        "station_colors": "blue",
+        "wikipedia": "en:Bendemeer MRT station",
+        "wikipedia_slug": "Bendemeer_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.863067,
+            1.313583
+        ]
+    },
+    {
+        "name": "Redhill",
+        "name_zh-Hans": "红山",
+        "name_ta": "ரெட்ஹில்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW18",
+        "station_colors": "green",
+        "wikipedia": "en:Redhill MRT station",
+        "wikipedia_slug": "Redhill_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.816757,
+            1.289653
+        ]
+    },
+    {
+        "name": "Bugis",
+        "name_zh-Hans": "武吉士",
+        "name_ta": "பூகிஸ்",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "EW12-DT14",
+        "station_colors": "green-blue",
+        "wikipedia": "en:Bugis MRT station",
+        "wikipedia_slug": "Bugis_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.856095,
+            1.30053
+        ]
+    },
+    {
+        "name": "Tuas Link",
+        "name_zh-Hans": "大士连路",
+        "name_ta": "துவாஸ் லிங்க்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW33",
+        "station_colors": "green",
+        "wikipedia": "en:Tuas Link MRT station",
+        "wikipedia_slug": "Tuas_Link_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.636844,
+            1.340038
+        ]
+    },
+    {
+        "name": "Woodlands North",
+        "name_zh-Hans": "兀兰北",
+        "name_ta": "உட்லண்ட்ஸ் நார்த்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "TE1",
+        "station_colors": "brown",
+        "wikipedia": "en:Woodlands North MRT station",
+        "wikipedia_slug": "Woodlands_North_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.785519,
+            1.448646
+        ]
+    },
+    {
+        "name": "Cove",
+        "name_zh-Hans": "海湾",
+        "name_ta": "கோவ்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PE1",
+        "station_colors": "gray",
+        "wikipedia": "en:Cove LRT station",
+        "wikipedia_slug": "Cove_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.905852,
+            1.399464
+        ]
+    },
+    {
+        "name": "Telok Ayer",
+        "name_zh-Hans": "直落亚逸",
+        "name_ta": "தெலுக் ஆயர்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT18",
+        "station_colors": "blue",
+        "wikipedia": "en:Telok Ayer MRT station",
+        "wikipedia_slug": "Telok_Ayer_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.848744,
+            1.282123
+        ]
+    },
+    {
+        "name": "Tan Kah Kee",
+        "name_zh-Hans": "陈嘉庚",
+        "name_ta": "டான் கா கீ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT8",
+        "station_colors": "blue",
+        "wikipedia": "en:Tan Kah Kee MRT station",
+        "wikipedia_slug": "Tan_Kah_Kee_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.807753,
+            1.325701
+        ]
+    },
+    {
+        "name": "Choa Chu Kang",
+        "name_zh-Hans": "蔡厝港",
+        "name_ta": "சுவா சூ காங்",
+        "network": "singapore-lrt.singapore-mrt",
+        "network_count": 2,
+        "station_codes": "NS4-BP1",
+        "station_colors": "red-gray",
+        "wikipedia": "en:Choa Chu Kang MRT/LRT station",
+        "wikipedia_slug": "Choa_Chu_Kang_MRT/LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.744534,
+            1.384749
+        ]
+    },
+    {
+        "name": "Samudera",
+        "name_zh-Hans": "山姆",
+        "name_ta": "சமுத்திரா",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "PW4",
+        "station_colors": "gray",
+        "wikipedia": "en:Samudera LRT station",
+        "wikipedia_slug": "Samudera_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.90219,
+            1.415976
+        ]
+    },
+    {
+        "name": "Bakau",
+        "name_zh-Hans": "码高",
+        "name_ta": "பக்காவ்",
+        "network": "singapore-lrt",
+        "network_count": 1,
+        "station_codes": "SE3",
+        "station_colors": "gray",
+        "wikipedia": "en:Bakau LRT station",
+        "wikipedia_slug": "Bakau_LRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.905458,
+            1.388029
+        ]
+    },
+    {
+        "name": "Tampines East",
+        "name_zh-Hans": "淡滨尼东",
+        "name_ta": "தெம்பினிஸ் ஈஸ்ட்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "DT33",
+        "station_colors": "blue",
+        "wikipedia": "en:Tampines East MRT station",
+        "wikipedia_slug": "Tampines_East_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.954976,
+            1.356084
+        ]
+    },
+    {
+        "name": "Expo",
+        "name_zh-Hans": "博览",
+        "name_ta": "எக்ஸ்போ",
+        "network": "singapore-mrt",
+        "network_count": 2,
+        "station_codes": "DT35-CG1",
+        "station_colors": "blue-green",
+        "wikipedia": "en:Expo MRT station",
+        "wikipedia_slug": "Expo_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.962238,
+            1.33564
+        ]
+    },
+    {
+        "name": "Joo Koon",
+        "name_zh-Hans": "裕群",
+        "name_ta": "ஜூ கூன்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "EW29",
+        "station_colors": "green",
+        "wikipedia": "en:Joo Koon MRT station",
+        "wikipedia_slug": "Joo_Koon_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.678285,
+            1.32772
+        ]
+    },
+    {
+        "name": "Yew Tee",
+        "name_zh-Hans": "油池",
+        "name_ta": "இயூ டீ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NS5",
+        "station_colors": "red",
+        "wikipedia": "en:Yew Tee MRT station",
+        "wikipedia_slug": "Yew_Tee_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.747401,
+            1.397461
+        ]
+    },
+    {
+        "name": "Farrer Park",
+        "name_zh-Hans": "花拉公园",
+        "name_ta": "ஃபேரர் பார்க்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE8",
+        "station_colors": "purple",
+        "wikipedia": "en:Farrer Park MRT station",
+        "wikipedia_slug": "Farrer_Park_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.854377,
+            1.312708
+        ]
+    },
+    {
+        "name": "Woodleigh",
+        "name_zh-Hans": "兀里",
+        "name_ta": "உட்லீ",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "NE11",
+        "station_colors": "purple",
+        "wikipedia": "en:Woodleigh MRT station",
+        "wikipedia_slug": "Woodleigh_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.870754,
+            1.339197
+        ]
+    },
+    {
+        "name": "Pasir Panjang",
+        "name_zh-Hans": "巴西班让",
+        "name_ta": "பாசிர் பாஞ்சாங்",
+        "network": "singapore-mrt",
+        "network_count": 1,
+        "station_codes": "CC26",
+        "station_colors": "yellow",
+        "wikipedia": "en:Pasir Panjang MRT station",
+        "wikipedia_slug": "Pasir_Panjang_MRT_station",
+        "stop_type": "station",
+        "mode": "metro_rail",
+        "coordinates": [
+            103.791614,
+            1.276177
+        ]
+    }
+
+]
