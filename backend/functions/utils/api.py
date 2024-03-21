@@ -1,8 +1,11 @@
 import os
 import requests
 
-API_KEY = os.environ['API_KEY']
-BASE_URL = os.environ['BASE_URL']
+# API_KEY = os.environ['API_KEY']
+# BASE_URL = os.environ['BASE_URL']
+
+API_KEY="TodvyWuXSMmbT4WNGCq7uQ=="
+BASE_URL="http://datamall2.mytransport.sg/ltaodataservice"
 
 
 def lta_api(endpoint, params=None):

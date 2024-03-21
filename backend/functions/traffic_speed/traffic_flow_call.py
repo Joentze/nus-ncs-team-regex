@@ -1,68 +1,97 @@
-import asyncio
-import datetime
-import time
-import json
-import aiohttp
-import csv
-import os
-from collections import defaultdict
 from ..utils.api import lta_api
+from geopy.distance import geodesic
+import math
 
 
-async def main(filepath):
-    # use the API key as needed
-    # api_key = os.environ['LTA_API_KEY']
 
-    # host = "http://datamall2.mytransport.sg/ltaodataservice/v3/TrafficSpeedBands?$skip="
-    # headers = {"AccountKey": api_key,
-    #            "accept": "application/json"}
-    # defaultdict with default value of an empty dict
-    everything = defaultdict(dict)
-    roads = {}
-    databatch = 0
+class Traffic_Speed:
 
-    # creating a dictionary of roads that we need
-    with open(filepath, 'r') as f:
-        relevant = csv.reader(f)
-        next(relevant)
-        for rel_roadname, rel_lineid in relevant:
-            if rel_roadname not in roads:
-                roads[rel_roadname] = []
-            roads[rel_roadname].append(rel_lineid)
+    road_width = 40
+    band_mapper = {
+        1: "extremely heavy traffic with speed range from 0 < 9",
+        2: "heavy traffic with speed range from 10 < 19",
+        3: "heavy traffic with speed range from 20 < 29",
+        4: "moderate traffic with speed range from 30 < 39",
+        5: "moderate traffic with speed range from 40 < 49",
+        6: "slight traffic with speed range from 50 < 59",
+        7: "little to no traffic with speed range from 60 < 69",
+        8: "no traffic with speed range from 70 or more",
+    }
 
-    while True:
-        task = lta_api("v3/TrafficSpeedBands?$skip=", databatch)
-        api_call = task
+    def __init__(self):
+        pass
 
-        return api_call.json()
+    def haversine(self, lat1, lon1, lat2, lon2):
+        """Calculates distance between two points on Earth using the Haversine formula.
+        """
+        R = 6371  # Approximate Earth's radius in kilometers 
 
-        # Check for final API call
-        if len(api_call['value']) < 500:
-            break
+        dLat = math.radians(lat2 - lat1)
+        dLon = math.radians(lon2 - lon1)
+        lat1 = math.radians(lat1)
+        lat2 = math.radians(lat2)
 
-        # Filtering out the needed data
-        updated = api_call['lastUpdatedTime']
-        everything['time'] = updated
-        for entry in api_call['value']:
-            roadname = entry['RoadName']
-            # Will only add to dictionary if in "roads" - for Stadium Area roads only
-            # To be updated: the LinkID as well to get more granular data
-            linkid = entry["LinkID"]
-            if roadname in roads and linkid in roads[roadname]:
-                everything[roadname][linkid] = {"RoadCategory": entry["RoadCategory"],
-                                                "SpeedBand": entry["SpeedBand"],
-                                                "StartLon": entry["StartLon"],
-                                                "StartLat": entry["StartLat"],
-                                                "EndLon": entry["EndLon"],
-                                                "EndLat": entry["EndLat"]}
+        a = math.sin(dLat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dLon/2)**2
+        c = 2 * math.atan2(math.sqrt(a), math.sqrt(1-a)) 
+        distance = R * c
 
-        databatch += 500
-        print(f'pulled databatch #{databatch}')
-        time.sleep(0.005)
+        return distance * 1000  # Return distance in meters
 
-    # date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    # with open(f".\data\{date}_road_data.json", "w") as outfile:
-    return json.dump(everything)
+
+    def distance_to_line(self, point, startCoord, endCoord):
+        """Calculates approximate minimum distance from a point to a line segment."""
+        px, py = point
+        x1, y1 = startCoord
+        x2, y2 = endCoord
+
+        dx = x2 - x1
+        dy = y2 - y1
+
+        if dx == 0 and dy == 0:
+            # The line segment is a point 
+            return self.haversine(point[0], point[1], startCoord[0], startCoord[1])
+
+        # Project point onto line, finding parametric value of projection
+        u = ((px - x1) * dx + (py - y1) * dy) / (dx * dx + dy * dy)
+
+        # Clamp parametric value to line segment boundaries
+        u = max(0, min(1, u)) 
+
+        # Find the closest point on the line segment 
+        closest_x = x1 + u * dx
+        closest_y = y1 + u * dy
+
+        return self.haversine(point[0], point[1], closest_x, closest_y) 
+
+    def get_speed(self, coords):
+
+        coords = coords.split(",")
+        latitude = float(coords[0])
+        longitude = float(coords[1])
+        try:
+            response = lta_api("v3/TrafficSpeedBands")
+        except:
+            return None
+        
+        min_distance = 100000
+        road_choice = None
+        
+        if response:
+            roads = response.json()
+            for road in roads["value"]:
+                startCoord, endCoord = (float(road["StartLat"]), float(road["StartLon"])), (float(road["EndLat"]), float(road["EndLon"]))
+                # Check distance from line string here
+                point = (latitude, longitude)
+                distance_to_line = self.distance_to_line(point, startCoord, endCoord)
+                if distance_to_line <= min_distance:  # Incorporate road_width
+                    min_distance = distance_to_line
+                    road_choice = road
+
+            road_name = road_choice["RoadName"]
+            speed_band = self.band_mapper[road_choice["SpeedBand"]]
+            return speed_band, road_name, round(min_distance, 3)
+
+
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    pass

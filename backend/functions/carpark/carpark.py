@@ -43,6 +43,7 @@ class Carpark:
         c = 2 * atan2(sqrt(a), sqrt(1-a)) 
         r = 6371  # Radius of earth in kilometers. Use 3956 for miles
         return r * c
+    
 
     def get_top_5_closest_carparks(self, location):
         """
@@ -50,7 +51,7 @@ class Carpark:
         with a space and outputs the closest 5 carparks as a dataframe
         """
         # Extract latitude and longitude from the location
-        lat, lon = map(float, location.split())
+        lat, lon = map(float, location.split(','))
         
         carpark_df = self.get_carpark_data()
         # Calculate distance from each car park to the given location
@@ -59,4 +60,4 @@ class Carpark:
         # Sort dataframe by distance and select top 5 closest car parks
         closest_carparks = carpark_df.sort_values(by='distance').head(5)
         # Filter out relevant columns and return the result
-        return closest_carparks[['CarParkID',"Area","Development", 'AvailableLots']].sort_values(by='AvailableLots', ascending=False)
+        return closest_carparks[['CarParkID',"Area","Development",'AvailableLots']].sort_values(by='AvailableLots', ascending=False)

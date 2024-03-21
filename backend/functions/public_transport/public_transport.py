@@ -10,10 +10,11 @@ from ..utils.api import lta_api
 
 
 class PublicTransportFinder:
-    def __init__(self, mrt_data, bus_stop_data):
+    mrt_data_path = "misc/mrt_stations.csv"
+
+    def __init__(self):
         # mrt_data represents pd.read_csv('data/MRT Stations.csv')
-        self.mrt_data = mrt_data
-        self.bus_stop_data = bus_stop_data
+        self.mrt_data = pd.read_csv(self.mrt_data_path)
 
     # Helper Function to calculate distance between coordinates
     def calculate_distance(self, lat1, lon1, lat2, lon2):
@@ -52,7 +53,11 @@ class PublicTransportFinder:
         return nearby_mrts
 
     # Final Function
-    def get_low_density_nearby_stations(self, latitude, longitude):
+    def get_low_density_nearby_stations(self, coords):
+        
+        coords = coords.split(",")
+        latitude = float(coords[0])
+        longitude = float(coords[1])
 
         stations = []
 
@@ -60,14 +65,9 @@ class PublicTransportFinder:
         for station_name, station_number_arr in nearby_mrts.items():
 
             for stn_no in station_number_arr:
-                train_line = stn_no[:-1] + "L"
+                train_line = stn_no[:2] + "L"
                 params={"TrainLine": train_line}
                 response = lta_api("PCDRealTime", params = params)
-                # response = requests.get(
-                #     PLATFORM_DENSITY_LINK,
-                #     params={"TrainLine": train_line},
-                #     headers={"AccountKey": DATAMALL_API_KEY},
-                # )
                 data = response.json()["value"]
 
                 for stn_dict in data:
