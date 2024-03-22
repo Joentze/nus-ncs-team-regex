@@ -6,10 +6,30 @@ from asyncio import run
 from openai import AsyncOpenAI
 from schemas.Prompt import Prompt
 from functions.crowd_density import get_crowd_density
+from handlers.functions_handler import get_crowd_management_suggestions
+
 client = AsyncOpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 
 function_map = {
+    "get_crowd_management_suggestions": {
+        "function": get_crowd_management_suggestions,
+        "function_input_format": {
+            "type": "function",
+            "function": {
+                "name": "get_crowd_management_suggestions",
+                "description": "Takes in a prompt on how to handle and manage crowds and generates a well-thought out solution",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "problem": {
+                            "type": "string",
+                            "description": "a succint, but accurate description of the problem",
+                        },
+                    },
+                    "required": ["problem"],
+                },
+            }, }},
     "get_crowd_density":
         {"function": get_crowd_density,
          "function_input_format":  {
@@ -60,7 +80,7 @@ async def get_completion(messages: List[Prompt], params: object = {}) -> Prompt:
     if tool_calls:
         function_name = tool_calls[0].function.name
         function_args = json.loads(tool_calls[0].function.arguments)
-        function_response = function_map[function_name]["function"](
+        function_response = await function_map[function_name]["function"](
             **function_args)
         return Prompt(**{"role": "function", "content": json.dumps(function_response), "name": function_name})
     return Prompt(**{"role": role, "content": content})
